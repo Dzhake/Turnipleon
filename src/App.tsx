@@ -80,7 +80,8 @@ function App() {
       //   persist: true,
       // })
     }
-    return loaded.guesses
+    return []
+    //return loaded.guesses
   })
 
   const [stats, setStats] = useState(() => loadStats())
